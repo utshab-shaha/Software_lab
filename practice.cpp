@@ -130,7 +130,7 @@ int main()
  {
      int year;
      cout<<"enter any year :";
-     cin>>year;
+     cin>>year; //vondho re vondho
 
      if((year%4==0 && year%100!=0) || year%400==0){
         cout<<"is a leap year";
